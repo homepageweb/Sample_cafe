@@ -20,7 +20,6 @@
         </nav>
     </header>
 
-    <!-- 💡 変更点：自動スライドショーの構造（JavaScriptを使わずCSSだけで動かします） -->
     <section class="hero">
         <div class="slide slide1"></div>
         <div class="slide slide2"></div>
@@ -28,7 +27,7 @@
         <div class="hero-overlay"></div>
         <div class="hero-text">
             <h2>木漏れ日と、珈琲の香り。</h2>
-            <p>あわただしい日常から少しだけ離れて<br>豊かな緑と丁寧に淹れた珈琲を。</p>
+            <p>あわただしい日常から少しだけ離れて、豊かな緑と丁寧に淹れた珈琲を。</p>
         </div>
     </section>
 
@@ -38,7 +37,6 @@
             <div class="about-img">
                 <img src="https://images.unsplash.com/photo-1453614512568-c4024d13c247?auto=format&fit=crop&q=80&w=800" alt="店内の様子">
             </div>
-            <!-- 💡 変更点：ご指定通りの位置に改行（br）を入れました -->
             <div class="about-text">
                 <p>
                     CAFE NEST（ネスト）は、緑豊かな自然に囲まれた<br>
@@ -59,7 +57,30 @@
         </div>
     </section>
 
+    <!-- 💡 ①新設：お知らせ（NEWS）セクション -->
+    <section id="news" class="news-container">
+        <div class="news-inner">
+            <h3 class="news-title">NEWS</h3>
+            <ul class="news-list-items">
+                <li>
+                    <span class="news-date">2026.07.01</span>
+                    <span class="news-text">【季節限定】桃のフルーツタルトが新登場しました。</span>
+                </li>
+                <li>
+                    <span class="news-date">2026.06.15</span>
+                    <span class="news-text">社内研修のため、6月24日（水）は臨時休業とさせていただきます。</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
     <footer>
+        <!-- 💡 ②新設：Instagramへの導線リンク（実際のあなたのアカウントのURLを href="〜" に入れてください） -->
+        <div class="footer-social">
+            <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" class="instagram-link">
+                <span class="insta-icon">📷</span> Instagram
+            </a>
+        </div>
         <p>&copy; 2026 CAFE NEST. All rights reserved.</p>
     </footer>
 
